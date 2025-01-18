@@ -1,6 +1,6 @@
-sentence = "I am Suhit Dhungana Apple Banana to pi a ballon hydrogenhalide ."
+n = 222345
+
+for i in range(1, 6):
+    n_1 = n / (10 ** i)
+    print(int(n_1), end = " ")
     
-sentence_length = len(sentence.split())
-for i in range(0, sentence_length):
-    length = len(sentence.split()[i])
-    print(length)
