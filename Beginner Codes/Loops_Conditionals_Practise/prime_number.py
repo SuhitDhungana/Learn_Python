@@ -23,14 +23,14 @@ def prime_numbers(number):
     # Query for each odd number until 'number'
     for i in range(3, number, 2):
         # Check 'i' is prime or composite
-        check_prime 
-        for j in range(3, i, 2):
+        check_prime = True
+        for j in range(3, int(i / 2), 2):
             if i % j == 0:
                 check_prime = False
                 break
             
-            if check_prime 
-                print(i, end = " ")
+        if check_prime:
+            print(i, end = " ")
             
     
 if __name__ == "__main__":
