@@ -21,6 +21,5 @@ def product_digits(number):
     print(f"Product of digits is {int(product)}")
         
         
-    
 if __name__ == "__main__":
     main()
