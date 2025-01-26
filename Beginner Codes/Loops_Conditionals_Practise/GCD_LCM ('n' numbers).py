@@ -24,14 +24,12 @@ def main():
         
 def find_GCD(numbers):
     
-        
-''' My algorithm for this
-i) find the smallest number among the numbers
-ii) find divisors of smallest number and make a dictionary of those divisors are key values
-iii) for every other number in 'numbers,' check individual divisors, and if the divisors 
-    match with the divisors of smallest number's divisors, add a frequency
-iv) in that dictionary, find the highest number which has value equal to 'quantity'
-'''
+# My algorithm for this
+# i) find the smallest number among the numbers
+# ii) find divisors of smallest number and make a dictionary of those divisors are key values
+# iii) for every other number in 'numbers,' check individual divisors, and if the divisors 
+#     match with the divisors of smallest number's divisors, add a frequency
+# iv) in that dictionary, find the highest number which has value equal to 'quantity'
     
     
     
