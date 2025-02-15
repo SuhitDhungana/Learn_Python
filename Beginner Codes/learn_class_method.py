@@ -1,5 +1,6 @@
 class School():
-    count = 0
+    # These are class variables
+    count = 0 
     total_gpa = 0
 
     def __init__(self, name, gpa, grade):
