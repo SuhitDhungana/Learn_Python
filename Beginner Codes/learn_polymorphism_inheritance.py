@@ -1,18 +1,18 @@
 from abc import ABC, abstractmethod
+from math import pi
 
-'''
--> The abc module stands for "Abstract Base Classes." It allows you to define abstract 
-classes in Python. 
--> An abstract class is a class that cannot be instantiated on its own 
-and is meant to be a blueprint for other classes.
--> ABC is a base class used to create abstract classes.
-abstractmethod is a decorator that is used to declare a method as abstract. 
--> An abstract method is a method that must be overridden in any subclass.
-'''
+# -> The abc module stands for "Abstract Base Classes." It allows you to define abstract 
+# classes in Python. 
+# -> An abstract class is a class that cannot be instantiated on its own 
+# and is meant to be a blueprint for other classes.
+# -> ABC is a base class used to create abstract classes.
+# abstractmethod is a decorator that is used to declare a method as abstract. 
+# -> An abstract method is a method that must be overridden in any subclass.
+
 class Shapes():
     @abstractmethod
-    ''' any subclass of Shapes() must implement 'area()' method, else the program
-    will raise an error'''
+    #  any subclass of Shapes() must implement 'area()' method, else the program
+    # will raise an error
     def area():
         pass
 
@@ -21,7 +21,7 @@ class Circle(Shapes):
         self.radius = radius
         
     def area(self):
-        return 3.14159 * (self.radius ** 2)
+        return pi * (self.radius ** 2)
 
 class Rectangle(Shapes):
     def __init__(self, length, breadth):

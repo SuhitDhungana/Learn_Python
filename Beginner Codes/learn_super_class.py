@@ -15,4 +15,4 @@ class Chimpanzee(Animal):
         self.climb_tree = climb_tree
 
 rat = Rat("6 AM", "bugs", "10 PM", "SQUEAKK")
-print(f"A rate, who woke at {rat.wake} and ate {rat.eat} after shouting, '{rat.squeak},' slept at {rat.sleep}")
+print(f"A rat, who woke at {rat.wake} and ate {rat.eat} after shouting, '{rat.squeak},' slept at {rat.sleep}.")
